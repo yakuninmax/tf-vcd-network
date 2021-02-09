@@ -7,5 +7,5 @@ output "subnets" {
 }
 
 output "vapp" {
-  value = var.vapp_name != "" ? vcd_vapp.vapp[0].vapp_name : null
+  value = var.vapp_name != "" ? vcd_vapp.vapp[0].name : null
 }
