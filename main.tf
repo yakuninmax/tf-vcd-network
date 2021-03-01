@@ -35,7 +35,7 @@ resource "vcd_nsxv_firewall_rule" "default-firewall-rule" {
   }
 
   destination {
-    gateway_interfaces = ["external", var.name]
+    gateway_interfaces = ["external"]
   }
 
   service {
