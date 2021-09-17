@@ -11,9 +11,11 @@ variable "cidr" {
 variable "dns1" {
   type        = string
   description = "Network first DNS server address"
+  default     = ""
 }
 
 variable "dns2" {
   type        = string
   description = "Network second DNS server address"
+  default     = ""
 }
